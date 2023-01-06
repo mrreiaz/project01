@@ -1,0 +1,256 @@
+* {
+    margin: 0;
+    padding: 0;
+
+    font-family: 'Open Sans';
+    font-style: normal;
+}
+
+.btn-primary {
+
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 27px;
+    color: #FFFFFF;
+    background: #FD6E0A;
+    border: 0;
+    padding: 10px 30px;
+    border-radius: 10px;
+}
+
+.header {
+    padding: 50px 228px 0px 227px;
+    background: #FFF8F3;
+    background-image: url("../images/header_bg.png"), url("../images/developer.png");
+    background-repeat: no-repeat;
+    background-position: bottom right, left;
+}
+
+.header nav {
+    display: flex;
+    justify-content: space-between;
+}
+
+.header nav ul {
+    display: flex;
+    align-items: center;
+}
+
+.header nav ul li {
+    list-style: none;
+    margin-left: 20px;
+}
+
+.header nav h2 span {
+    color: #fd6e0a;
+}
+
+.header nav h2 {
+    font-weight: 800;
+    font-size: 45px;
+    line-height: 61px;
+    color: #181818;
+}
+
+
+/*  */
+
+.header-content {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.header-text h3 {
+    font-style: normal;
+    font-weight: 600;
+    font-size: 45px;
+    line-height: 61px;
+    color: #474747;
+}
+
+.header-text h2 {
+    font-weight: 700;
+    font-size: 85px;
+    line-height: 116px;
+    color: #181818;
+}
+
+.header-text p {
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 30px;
+    color: #757575;
+    margin-bottom: 30px;
+}
+
+.header-img img {
+    position: relative;
+    right: -144px;
+}
+
+main section {
+    max-width: 1140px;
+    margin: 100px auto;
+}
+
+/* about me */
+
+.about-me {
+    background: #FFF8F3;
+    border-radius: 10px;
+}
+
+.section-title {
+    font-weight: 700;
+    font-size: 35px;
+    line-height: 48px;
+    text-align: center;
+    color: #181818;
+    padding: 40px 0;
+}
+
+.section-description {
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 30px;
+    text-align: center;
+    color: #757575;
+    padding: 10px 150px;
+}
+
+.about-info {
+    display: flex;
+    justify-content: space-around;
+    padding-bottom: 52px;
+    padding-top: 20px;
+}
+
+.info-content {
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 30px;
+    text-align: center;
+    color: #474747;
+
+}
+
+/*  What I Do */
+
+.skills {
+    display: flex;
+    justify-content: space-around;
+    gap: 25px;
+    padding-top: 50px;
+}
+
+.skill-item {
+    background: #FFFFFF;
+    box-shadow: 0px 6px 50px rgb(0 0 0 / 6%);
+    border-radius: 5px;
+    padding: 20px;
+}
+
+.skill-item h2 {
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 27px;
+    color: #181818;
+}
+
+.skill-item p {
+
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 28px;
+    color: #757575;
+}
+
+.resume-content {
+    display: flex;
+}
+
+.resume-content h2 {
+    font-weight: 700;
+    font-size: 25px;
+    line-height: 34px;
+    color: #474747;
+
+}
+
+.resume-content h5 {
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 27px;
+    color: #757575;
+}
+
+.resume-content p {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 28px;
+    color: #757575;   
+}
+
+.education-item {
+    border-bottom: 1px solid;
+    width: 95%;
+}
+
+.content-item{
+
+    padding-bottom: 20px;
+    padding-top: 20px; 
+}
+
+.download-cv{
+    text-align: center;
+}
+
+.message-me-section{
+    background: #FFF8F3;
+}
+
+.message-me {
+    display: flex;
+    justify-content: space-around;
+    gap: 40px;
+    width: 1140px;
+    margin: 0 auto;
+    padding-top: 80px;
+    padding-bottom: 80px;
+}
+
+.connect h2 {
+    font-size: 35px;
+    line-height: 48px;
+    color: #181818;
+    margin-bottom: 15px;
+    
+}
+
+.connect p {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 28px;
+    color: #474747;
+}
+
+.connect ul {
+    list-style: none;
+    display: flex;
+    margin-top: 30px;
+}
+
+.connect ul li {
+    padding-right: 20px;
+}
+
+.connect form input,textarea{
+    margin-bottom: 24px;
+    border: 0;
+    width: 100%;
+    padding: 18px 30px;
+}
+
